@@ -6,7 +6,7 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <ul className="">
+    <ul className="nav">
       <li className="">
         <Link
           to="/"
