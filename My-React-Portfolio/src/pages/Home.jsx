@@ -1,18 +1,13 @@
+import profilePic from '../assets/portfolio-picture.png';
+
 export default function Home() {
     return (
-        <div>
-            <h1 className="home1">Home Page</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-                velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-                ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-                non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-                ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-                rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-                tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-                porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-                vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-                fames ac ante ipsum primis in faucibus.
+        <div className='home'>
+            <img src={profilePic} alt="Profile" className="profile-pic" /> {/* Add your className or style here */}>
+            <p className="developer-font">
+                Hello! I'm Jesse, a Full Stack Web Developer from Utah with a passion for creating seamless, visually appealing web experiences. My expertise spans HTML, CSS, JavaScript, React, Node.js, and other technologies. Since 2023, I've been dedicated to building user-centric web applications that are not only functional but also intuitive and engaging.
+                What sets me apart is my commitment to innovative problem-solving and meticulous attention to details. My portfolio highlights my versatility and ability to tackle challenges in web development, showcasing projects that range from single-page applications to full-stack solutions.
+                I'm excited about opportunities to collaborate on projects or with teams where I can contribute my skills and continue to grow. Thank you for considering my work. Let's connect!
             </p>
         </div>
     );
