@@ -11,8 +11,10 @@ function App() {
   return (
     <>
       <ThreeBackground />
-      <Nav />
-      <Header />
+      <div className="app-container">
+        <Header />
+        <Nav />
+      </div>
       <main className="">
         <Outlet />
       </main>
