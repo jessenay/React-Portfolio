@@ -55,8 +55,8 @@ body {
   flex-direction: column; /* Aligns children vertically */
   align-items: flex-end; /* Aligns children to the start of the flex container, which is the left side */
   position: relative;
-    right: 30px;
-    bottom: 140px;
+    right: 40px;
+    bottom: 135px;
     z-index: 1;
 }
 
@@ -113,10 +113,11 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(214, 207, 180);
     text-align: center;
     width: 80%;
+    margin-top: 80px;
 }
 
 .profile-pic {
@@ -124,6 +125,8 @@ body {
     width: 310px;
     height: 300px;
     margin-bottom: 30px;
+    position: relative;
+    top: 80px;
 }
 
 .projects-container {
@@ -149,7 +152,7 @@ body {
     top: 50px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 170px;
+margin-bottom: 70px;
 }
 
 .project-circle:hover {
@@ -184,7 +187,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    margin-top: auto;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
@@ -192,3 +195,69 @@ footer {
     color: rgb(214, 207, 180);
     font-size: 24px;
 }
+
+.info-buttons {
+    color: rgb(214, 207, 180);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.info-option {
+    cursor: pointer;
+  }
+  
+  .info-option:hover {
+    color: #0056b3; /* Darker shade for hover effect */
+    text-decoration: none; /* Optional: remove underline on hover for a button-like feel */
+  }
+
+  .info-content {
+    color: rgb(214, 207, 180);
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+  .about-me {
+    color: rgb(214, 207, 180);
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .about-me-text {
+    color: rgb(214, 207, 180);
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
+
+  .active-info {
+    font-weight: bold;
+  text-decoration: underline;
+  }
