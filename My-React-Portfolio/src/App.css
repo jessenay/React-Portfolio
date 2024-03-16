@@ -42,7 +42,6 @@ body {
     position: absolute;
     left: 1290px;
     top: 5px;
-    font-stretch: expanded;
 }
 
 .name {
@@ -93,3 +92,50 @@ body {
     top: 150px;
     left: 700px;
   }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: 2px solid rgb(214, 207, 180);
+    color: rgb(214, 207, 180);
+    text-align: center;
+    position: relative;
+    top: 250px;
+  }
+  
+  .project-circle:hover {
+    transform: scale(1.1);
+  }
+
+  .project-title {
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+  }
+
+  .projects {
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(214, 207, 180);
+    position: relative;
+    top: 150px;
+  }
+  

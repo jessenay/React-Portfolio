@@ -1,19 +1,42 @@
+import React from 'react';
+import '../App.css'; // Make sure your CSS is correctly pathed
+import { ProjectCircle, fitnessTrackerImg, foragerImg, portfolioImg, comingSoonImg } from '../components/Project';
+
+const projects = [
+  {
+    title: "Fitness Tracker",
+    imageUrl: fitnessTrackerImg,
+    link: "https://workout-fitness-tracker-herokuapp.com",
+  },
+  {
+    title: "Forager",
+    imageUrl: foragerImg,
+    link: "https://dougyfresh208.github.io/BWWC/",
+  },
+  {
+    title: "React Portfolio",
+    imageUrl: portfolioImg,
+    link: "https://github.com/jessenay/React-Portfolio",
+  },
+  {
+    title: "Coming Soon",
+    imageUrl: comingSoonImg,
+    link: ""
+  }
+  // Add more projects here
+];
+
 export default function Projects() {
-    return (
-        <div>
-            <h1>Projects</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-                velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-                ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-                non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-                ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-                rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-                tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-                porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-                vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-                fames ac ante ipsum primis in faucibus.
-            </p>
-        </div>
-    );
+  return (
+    <div>
+      <h1 className= "projects">Projects</h1>
+      <div className="projects-container">
+        {projects.map((project, index) => (
+          <ProjectCircle key={index} project={project} />
+        ))}
+      </div>
+    </div>
+  );
 }
+
+  
