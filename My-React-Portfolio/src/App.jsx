@@ -5,6 +5,7 @@ import Nav from './components/Navigation.jsx';
 import Header from './components/Header.jsx';
 import ThreeBackground from './components/ThreeBackround.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <main className="">
         <Outlet />
       </main>
+      <Footer />
     </>
   );
 }

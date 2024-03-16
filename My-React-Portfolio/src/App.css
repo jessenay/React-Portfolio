@@ -1,6 +1,20 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1
+}
+
 .home {
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center;
+    position: relative;
+    bottom: 100px;
 }
 
 #three-container {
@@ -23,29 +37,31 @@ body {
 
 
 .nav {
-    text-decoration: none;
     font-size: 20px;
     border: 2px solid white;
-    width: 103px;
-    height: 140px;
 }
 
 .navbar-custom {
-    background-color: rgb(73, 73, 73);
+    background-color: #333;
     width: 430px;
     border: rgb(214, 207, 180) 3px solid;
     margin: 40px;
+    z-index: 2;
 }
 
 .Header {
     color: rgb(214, 207, 180);
-    position: absolute;
-    left: 1290px;
-    top: 5px;
+    display: flex; /* Enables Flexbox for your header */
+  flex-direction: column; /* Aligns children vertically */
+  align-items: flex-end; /* Aligns children to the start of the flex container, which is the left side */
+  position: relative;
+    right: 30px;
+    bottom: 140px;
+    z-index: 1;
 }
 
 .name {
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .name-font {
@@ -53,54 +69,71 @@ body {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-  }
+}
 
-  .nav-font {
+.nav-font {
     font-family: "Ojuju", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-  }
-  
-  .navbar-custom .nav-link {
-    color: rgb(214, 207, 180);
-  }
+}
 
+.navbar-custom .nav-link {
+    color: rgb(214, 207, 180);
+}
+
+.nav-link {
+    transition: font-size 0.3s ease;
+    /* Smooth transition for font-size change */
+
+}
+
+.nav-link:hover {
+    font-size: 1.2em;
+    /* Increase font size on hover */
+}
+
+.nav-link.active {
+    font-size: 1.2em;
+    font-weight: bold;
+}
   
-  .developer-font {
+.developer {
     font-family: "Ojuju", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    text-align: right;
+    font-size: 20px;
+    color: rgb(214, 207, 180);
+}
+
+
+.developer-font {
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     font-size: 20px;
     color: rgb(214, 207, 180);
     text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-right: 400px;
-    margin-left: 400px;
-    position: relative;
-    top: 350px;
-  }
+    width: 80%;
+}
 
-  .profile-pic {
+.profile-pic {
     border-radius: 50%;
     width: 310px;
     height: 300px;
-    position: absolute;
-    top: 150px;
-    left: 700px;
-  }
+    margin-bottom: 30px;
+}
 
-  .projects-container {
+.projects-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  }
-  
-  .project-circle {
+}
+
+.project-circle {
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -113,21 +146,29 @@ body {
     color: rgb(214, 207, 180);
     text-align: center;
     position: relative;
-    top: 250px;
-  }
-  
-  .project-circle:hover {
-    transform: scale(1.1);
-  }
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 170px;
+}
 
-  .project-title {
-    font-size: 20px;
+.project-circle:hover {
+    transform: scale(1.1);
+}
+
+.project-title {
     position: relative;
     bottom: 40px;
     text-align: center;
-  }
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(214, 207, 180);
+}
 
-  .projects {
+.projects {
     font-family: "Ojuju", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -135,7 +176,19 @@ body {
     text-align: center;
     font-size: 40px;
     color: rgb(214, 207, 180);
-    position: relative;
-    top: 150px;
-  }
-  
+}
+
+footer {
+    color: rgb(214, 207, 180);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.my-icon {
+    color: rgb(214, 207, 180);
+    font-size: 24px;
+}
