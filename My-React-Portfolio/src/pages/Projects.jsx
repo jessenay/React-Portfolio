@@ -22,8 +22,17 @@ const projects = [
     title: "Coming Soon",
     imageUrl: comingSoonImg,
     link: ""
+  },
+  {
+    title: "Coming Soon",
+    imageUrl: comingSoonImg,
+    link: ""
+  },
+  {
+    title: "Coming Soon",
+    imageUrl: comingSoonImg,
+    link: ""
   }
-  // Add more projects here
 ];
 
 export default function Projects() {

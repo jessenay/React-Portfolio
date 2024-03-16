@@ -5,7 +5,7 @@ export default function AboutMe() {
   const [infoType, setInfoType] = useState('skills');
 
   const infoContent = {
-    skills: "CSS, React.js, JavaScript, HTML, MySQL, Bootstrap, Tailwind, Node.js, MongoDB, APIs, Figma, Wireframes, Jest, Express.js, Handlebars.js, Sequelize, Mongoose, Git, GitHub, Heroku, Progressive Web Apps, Webpack, Responsive Design, Accessibility, SEO, Performance Optimization, Cross-Browser Compatibility, Debugging, Problem-Solving, Project Management, Team Collaboration, Communication, Time Management, Slack, Zoom,",
+    skills: "CSS, React.js, JavaScript, HTML, MySQL, Bootstrap, Tailwind, Node.js, MongoDB, APIs, Figma, Wireframes, Jest, Express.js, Handlebars.js, Sequelize, Mongoose, Git, GitHub, Heroku, Progressive Web Apps, Webpack, Responsive Design, Accessibility, SEO, Performance Optimization, Cross-Browser Compatibility, Debugging, Problem-Solving, Project Management, Team Collaboration, Communication, Time Management, Slack, Zoom",
     experience: "Looking to land an entry-level web developer position to utilize my skills and knowledge in a professional environment. I am a quick learner and a team player, and I am eager to contribute to a dynamic team.",
     education: "University of Utah General Education 2017-2018. Snow College General Education 2018-2019. University of Utah Coding Bootcamp 2023-2024"
   };
