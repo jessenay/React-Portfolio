@@ -6,7 +6,7 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light navbar-custom">
+    <nav className="navbar navbar-expand-lg navbar-light navbar-custom nav-font">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/"></Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@ function NavTabs() {
             <li className="nav-item">
               <Link to="/Contact" className={`nav-link ${currentPage === '/Contact' ? 'active' : ''}`}>Contact</Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item ">
               <Link to="/Resume" className={`nav-link ${currentPage === '/Resume' ? 'active' : ''}`}>Resume</Link>
             </li>
           </ul>
