@@ -1,8 +1,32 @@
-# React + Vite
+  # React-Portfolio
+  
+  ## Description
+  This is my portfolio. It is built using React.js
+  
+  
+  ## Installation
+  N/A
+  
+  ## Usage
+  Open the link to the deployed application and follow along with the simple UI.
+  
+  ## License
+  ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+  This project is licensed under the MIT license. For more information, see the [license link](https://opensource.org/licenses/MIT).
+  
+  ## Contributing
+  No contributing
+  
+  ## Tests
+  N/A
+  
+  ## Questions
+  If you have any questions, please feel free to contact me at jessenay26@gmail.com
+  You can also find me on GitHub as [jessenay] at (https://github.com/jessenay)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  ## Screenshot
+  <img width="1742" alt="portfolio" src="https://github.com/jessenay/React-Portfolio/assets/141958797/24d8acf6-f572-49a6-9ecf-e8b51464aa89">
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Link to deployed application
+  https://jesse-nay-portfolio.netlify.app/
+  
