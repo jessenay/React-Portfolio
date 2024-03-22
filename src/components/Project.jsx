@@ -12,7 +12,6 @@ function ProjectCircle({ project }) {
       style={{ backgroundImage: `url(${project.imageUrl})` }}
       title={project.title}
     >
-      {/* Optionally, you can add a title or any other content inside the circle */}
       <div className="project-title">{project.title}</div>
     </div>
   );

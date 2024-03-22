@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css'; // Make sure your CSS is correctly pathed
+import '../App.css';
 import { ProjectCircle, fitnessTrackerImg, foragerImg, portfolioImg, comingSoonImg } from '../components/Project';
 
 const projects = [
