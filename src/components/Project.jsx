@@ -3,6 +3,8 @@ import fitnessTrackerImg from '../assets/fitness-tracker.png';
 import foragerImg from '../assets/forager.png';
 import portfolioImg from '../assets/portfolio.png';
 import comingSoonImg from '../assets/coming-soon.png';
+import verifimintImg from '../assets/verifimintImg.png';
+import FeastbookImg from '../assets/FeastbookImg.png'
 
 function ProjectCircle({ project }) {
   return (
@@ -17,4 +19,4 @@ function ProjectCircle({ project }) {
   );
 }
 
-export { ProjectCircle, fitnessTrackerImg, foragerImg, portfolioImg, comingSoonImg };
+export { ProjectCircle, fitnessTrackerImg, foragerImg, portfolioImg, comingSoonImg, verifimintImg, FeastbookImg};
