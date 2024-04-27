@@ -8,7 +8,7 @@ import Error from './pages/ErrorPage';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/AboutMe';
-import Projects from './pages/Project';
+import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 const router = createBrowserRouter([
   {

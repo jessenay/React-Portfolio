@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { ProjectCircle, fitnessTrackerImg, foragerImg, portfolioImg, comingSoonImg } from '../components/Project';
+import { ProjectCircle, fitnessTrackerImg, foragerImg, portfolioImg, comingSoonImg, verifimintImg, FeastbookImg } from '../components/Project';
 
 const projects = [
   {
@@ -19,14 +19,14 @@ const projects = [
     link: "https://github.com/jessenay/React-Portfolio",
   },
   {
-    title: "Coming Soon",
-    imageUrl: comingSoonImg,
-    link: ""
+    title: "VERIFIMINT",
+    imageUrl: verifimintImg,
+    link: "https://verifimint.com/"
   },
   {
-    title: "Coming Soon",
-    imageUrl: comingSoonImg,
-    link: ""
+    title: "FeastBook",
+    imageUrl: FeastbookImg,
+    link: "https://feastbook.onrender.com"
   },
   {
     title: "Coming Soon",
